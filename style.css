@@ -39,6 +39,11 @@ p {
     background-color: #fff;
 }
 
+.navbar-light .navbar-nav .active>.nav-linkhover {
+    color: #000;
+    background-color: #fff;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: rgba(255, 255, 255, .8);
 }
@@ -68,7 +73,8 @@ p {
 }
 
 .banner:before,
-.sec2::before {
+.sec2::before,
+.contact::before {
     content: '';
     position: absolute;
     top: 0;
@@ -80,7 +86,8 @@ p {
 }
 
 .banner:after,
-.sec2::after {
+.sec2::after,
+.contact::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -196,6 +203,7 @@ p {
     text-transform: uppercase;
     font-size: 4.5rem;
 }
+
 .btnD1 {
     border: 2px solid #fff;
     color: #000;
@@ -203,26 +211,212 @@ p {
     border-radius: 50px;
     padding: 15px 50px;
     font-size: 1.15rem;
-    outline : none;
+    outline: none;
     font-weight: 500;
-    margin-top:20px ;
+    margin-top: 20px;
 }
+
 .blog {
     position: relative;
     padding: 100px 0;
     background: #000;
 
 }
+
 .blogpost {
     position: relative;
     width: 100%;
-    margin-top:30px ;
+    margin-top: 30px;
+    background: #fff;
 }
-.blogpost .imgBx{
+
+.blogpost .imgBx {
     height: 400px;
 }
+
 .blogpost .imgBx img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.blogpost .content {
+    padding: 15px;
+}
+
+.blogpost .content h1 {
+    margin: 0;
+    padding: 0 0 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.btnD2 .btnD2:hover {
+    background: #262626;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    float: right;
+}
+
+.contact {
+    position: relative;
+    padding: 100px 0;
+    background: url(img4.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.contact form {
+    position: relative;
+    z-index: 1000;
+}
+
+.contact .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    height: 50px;
+    border-radius: 0;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.contact .form-control:focus,
+.contact .form-control:hover {
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+    box-shadow: none;
+}
+
+.contact .textarea {
+    min-height: 100px;
+}
+
+.contact label {
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+footer {
+    background: #000;
+    padding: 50px 0 0;
+}
+
+.sci {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sci li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.sci li a {
+    color: #777;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.sci li a:hover {
+    color: #fff;
+}
+
+.cpryt {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+}
+
+.cpryt a,
+.cpryt a:hover {
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-light .navbar-toggler {
+        background: #fff;
+        border-radius: 0;
+    }
+
+    .banner {
+        min-height: 100vh;
+        padding: 100px 0;
+    }
+
+    .contentBox h1,
+    .sec h2 {
+        font-size: 2rem;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .sec1 {
+        padding: 100px 0;
+        background: #000;
+    }
+
+    .headerText h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .blog {
+        padding: 20px 0;
+    }
+
+    .blogpost .imgBx {
+        height: 200px;
+    }
+
+    .contact {
+        padding: 20px 0;
+    }
+
+    .contact .form-control {
+        height: 40px;
+        border: 1px solid #fff;
+    }
+
+    .btnD1 {
+        padding: 10px 40px;
+        margin-top: 10px;
+    }
+
+    footer {
+        background: #000;
+        padding: 0px 0 20px;
+    }
+
+    .sci li {
+        list-style: none;
+        margin: 0 10px;
+    }
+
+    .sci li a {
+        color: #777;
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+
+    .sec2 {
+        height: auto;
+        padding: 40px 0;
+    }
 }

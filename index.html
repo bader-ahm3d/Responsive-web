@@ -18,14 +18,15 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">Nature</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -34,7 +35,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
@@ -44,7 +45,7 @@
                             <a class="nav-link" href="#adventure">Adventure</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="blogs">Blogs</a>
+                            <a class="nav-link" href="#blogs">Blogs</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
@@ -58,9 +59,11 @@
         <div class="container h100">
             <div class="contentBox h100">
                 <div>
-                    <h1>Undiscoverd Beauty</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cum, beatae dolores quibusdam
-                        numquam repellat ex asperiores amet nostrum animi, aliquam eum similique odit commodi! adipisicing elit. Nisi cum, beatae dolores quibusdam
+                    <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Undiscoverd Beauty</h1>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Nisi cum, beatae dolores quibusdam
+                        numquam repellat ex asperiores amet nostrum animi, aliquam eum similique odit commodi!
+                        adipisicing elit. Nisi cum, beatae dolores quibusdam
                         numquam</p>
                 </div>
             </div>
@@ -71,8 +74,10 @@
             <div class="row">
                 <div class="offset-sm-2 col-sm-8">
                     <div class="headerText text-center">
-                        <h2>Explore The World</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem, dolorem
+                        <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Explore The World</h2>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Lorem ipsum dolor sit amet
+                            consectetur,
+                            adipisicing elit. Minus exercitationem, dolorem
                             recusandae rerum ut cum ad rem voluptas. Rem aperiam itaque ratione officiis laboriosam
                             nostrum neque, culpa sit. In, provident.</p>
                     </div>
@@ -80,7 +85,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="placeBox">
+                    <div class="placeBox" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                         <div class="imgBx">
                             <img src="img1.PNG" class="img-fluid">
                         </div>
@@ -90,7 +95,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="placeBox">
+                    <div class="placeBox" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                         <div class="imgBx">
                             <img src="img1.PNG" class="img-fluid">
                         </div>
@@ -100,7 +105,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <div class="placeBox">
+                    <div class="placeBox" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                         <div class="imgBx">
                             <img src="img1.PNG" class="img-fluid">
                         </div>
@@ -117,22 +122,25 @@
         <div class="container h100">
             <div class="contentBox h100">
                 <div>
-                    <h1>Adventure is Everywhere</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat culpa veniam eaque porro modi
+                    <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Adventure is Everywhere</h1>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Quaerat culpa veniam eaque porro modi
                         adipisci exercitationem commodi perspiciatis, quia numquam. Nobis corporis ipsam nemo commodi.
                     </p>
-                    <a href="#" class="btn  btnD1">Read more</a>
+                    <a href="#" class="btn  btnD1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Read
+                        more</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="blog" id="blog">
+    <section class="blog" id="blogs">
         <div class="container">
             <div class="row">
                 <div class="offset-sm-2 col-sm-8">
-                    <div class="headerText">
-                        <h2>Our Latest Post</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ad maxime adipisci esse
+                    <div class="headerText text-center">
+                        <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Our Latest Post</h2>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Quo ad maxime adipisci esse
                             assumenda non voluptatum amet laborum, quam necessitatibus ipsa nemo vero error veniam.</p>
 
                     </div>
@@ -140,6 +148,20 @@
             </div>
             <div class="row">
                 <div class="col-sm-6">
+                    <div class="blogpost" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                        <div class="imgBx">
+                            <img src="img2.PNG" class="image-fluid">
+                        </div>
+                        <div class="content">
+                            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quidem.</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos eos,
+                                consectetur quas suscipit ad.</p>
+                            <a href="#" class="btn btnD2">Read More</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                     <div class="blogpost">
                         <div class="imgBx">
                             <img src="img2.PNG" class="image-fluid">
@@ -148,11 +170,13 @@
                             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quidem.</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos eos,
                                 consectetur quas suscipit ad.</p>
+                            <a href="#" class="btn btnD2">Read More</a>
+                            <div class="clearfix"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="blogpost">
+                    <div class="blogpost" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                         <div class="imgBx">
                             <img src="img2.PNG" class="image-fluid">
                         </div>
@@ -160,11 +184,13 @@
                             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quidem.</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos eos,
                                 consectetur quas suscipit ad.</p>
+                            <a href="#" class="btn btnD2">Read More</a>
+                            <div class="clearfix"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="blogpost">
+                    <div class="blogpost" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                         <div class="imgBx">
                             <img src="img2.PNG" class="image-fluid">
                         </div>
@@ -172,18 +198,8 @@
                             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quidem.</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos eos,
                                 consectetur quas suscipit ad.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="blogpost">
-                        <div class="imgBx">
-                            <img src="img2.PNG" class="image-fluid">
-                        </div>
-                        <div class="content">
-                            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quidem.</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos eos,
-                                consectetur quas suscipit ad.</p>
+                            <a href="#" class="btn btnD2">Read More</a>
+                            <div class="clearfix"></div>
                         </div>
                     </div>
                 </div>
@@ -195,15 +211,15 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="headerText text-center">
-                        <h2>Contact Us</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure dolorem non laudantium,
+                        <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Contact Us</h2>
+                        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure dolorem non laudantium,
                             eligendi soluta?</p>
                     </div>
                 </div>
             </div>
             <div class="row clearfix">
                 <div class="offset-sm-2 col-sm-8">
-                    <form>
+                    <form data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
                         <div class="form-group">
                             <label for="">Name</label>
                             <input type="text" name="" class="form-control">
@@ -220,7 +236,7 @@
                             <label for="">Massage</label>
                             <textarea class="form-control textarea" name=""></textarea>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group text-center">
                             <button class="btn btnD1">Send</button>
                         </div>
                     </form>
@@ -241,7 +257,7 @@
                         <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></li>
                         <li><a href="#"><i class="fa-brands fa-instagram"></i></li>
                     </ul>
-                    <p class="cpryt">© Copyright 2019 Nature | Template by <a href="#">Online Tutorials</a></p>
+                    <p class="cpryt">© Copyright 2025 Nature | Template by <a href="#">Online Tutorials</a></p>
                 </div>
             </div>
         </div>
@@ -252,6 +268,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script type="text/Javascript">
             $(document).scroll(function(){
                 $('.navbar').toggleClass('scrolled', $(this).
